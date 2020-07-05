@@ -1,0 +1,7 @@
+ALGORITHM hash-sum-distinct
+VAR
+    htab:HASH_TABLE<INTEGER,INTEGER>;
+
+BEGIN
+    
+END

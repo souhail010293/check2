@@ -1,0 +1,17 @@
+ALGORITHM Common-elements
+VAR
+tab1:ARRAY_OF INTEGER[10];
+tab2:ARRAY_OF INTEGER[10];
+sum,i,j:INTEGER;
+
+BEGIN
+sum:=0;
+    FOR i FROM 0 TO tab1.length-1  DO
+    FOR j FROM 0 TO tab2.length-1  DO
+    IF (tab1[i]=tab2[j]) THEN
+      sum+=tab1[i];
+    END_IF
+    END_FOR
+    sum*=2;
+    whrite ("the sum of all common elements from the set,"sum);
+    end
